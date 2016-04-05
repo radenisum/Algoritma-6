@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+	int angka; 
+
+	cout<< "Masukkan Angka Arab		: ";
+	cin>> angka;
+	
+	if (angka == 1) {
+		cout<< "Romawi I";
+	}
+	if (angka ==2) {
+		cout<< "Romawi II";
+	}
+	if (angka ==3) {
+		cout<< "Romawi III";
+	}
+	if (angka ==4) {
+		cout<< "Romawi IV";
+	}
+	if (angka ==5) {
+		cout<< "Romawi V";
+	}
+	if (angka ==6) {
+		cout<< "Romawi VI";
+	}
+	if (angka ==7) {
+		cout<< "Romawi VII";
+	}
+	if (angka ==8) {
+		cout<< "Romawi VIII";
+	}
+	if (angka ==9) {
+		cout<< "Romawi XI";
+	}
+	if (angka ==10) {
+		cout<< "Romawi X";
+	}
+	
+	return 0;
+}
